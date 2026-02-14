@@ -1,16 +1,3 @@
-/* =======================
-    ROOT VARIABLES
-======================== */
-
-:root{
-    --primary: #2563eb;
-    --dark:  #3a404f;
-    --light: #6a7584;
-    --gray: #262f3b;
-    
-}
-
-
 /* ===============================
     GLOBAL RESET
 ================================= */
@@ -22,9 +9,9 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-main);
     line-height: 1.6;
-    background: #0f172a;
+    background: var(--background);
     color: white;
 }
 
@@ -91,7 +78,6 @@ nav{
     text-align: center;
     padding: 80px 20px;
     background: linear-gradient(135deg, #1e293b, #0f172a);
-    color: white;
 }
 
 .profile-img{
