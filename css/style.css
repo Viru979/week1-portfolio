@@ -1,0 +1,286 @@
+/* =======================
+    ROOT VARIABLES
+======================== */
+
+:root{
+    --primary: #2563eb;
+    --dark:  #3a404f;
+    --light: #6a7584;
+    --gray: #262f3b;
+    
+}
+
+
+/* ===============================
+    GLOBAL RESET
+================================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #0f172a;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* ======================
+    NAVBAR
+======================== */
+
+header{
+    background: var(--dark);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+}
+
+.logo img {
+    height: 40px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: rgb(48, 216, 216);
+}
+
+.hamburger{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+/* ====================
+    HERO
+=====================*/
+
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
+.hero h1{
+    font-size: 32px;
+}
+.hero p{
+    margin: 10px 0 20px;
+}
+
+.social-links a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover{
+    padding: 5px 0 0 0;
+    color: teal;
+
+}
+
+.btn{
+    display: inline-block;
+    margin: 15px 0 0 0;
+    padding: 8px 18px;
+    text-decoration: none;
+    background: teal;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    color: var(--primary);
+}
+
+/* ==========================
+    COMMON SECTION
+============================*/
+
+.section{
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.section h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+
+/* ========================
+    ABOUT
+==========================*/
+
+#about{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+/* ========================
+    SKILLS
+==========================*/
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-card{
+    background: #1e3a8a;
+    padding: 10px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.skills-card:hover{
+    background: dodgerblue;
+    transform: translateY(-5px);
+}
+
+
+
+/* =========================
+    PROJECTS
+===========================*/
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card{
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: left;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+    background: var(--dark);
+}
+
+.project-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+    RESUME
+===========================*/
+
+#resume ol{
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#resume li{
+    margin-bottom: 30px;
+}
+
+.h3{
+    margin-top: 30px;
+    color: var(--primary);
+}
+
+
+/* ============================
+    CONTACT FORM
+===============================*/
+
+form{
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    outline: 2px solid var(--primary);
+}
+
+.star{
+    color: red;
+}
+
+
+/* ==================================
+    FOOTER
+==================================== */
+
+footer{
+    background: var(--dark);
+    text-align: center;
+    padding: 15pX;
+    margin-top: 40px;
+}
