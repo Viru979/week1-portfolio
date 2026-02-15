@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virendra Maurya | Portfolio</title>
     <link rel="icon" type="image/svg+xml" href="images/icons/favicon.svg">
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -36,7 +37,7 @@
     #Hero
 -->
     <section id="home" class="hero">
-        <img src="images/icons/viru.jpeg" alt="Virendra Maurya" class="profile-img">
+        <img src="images/profile.jpeg" alt="Virendra Maurya" class="profile-img">
         <h1>Hello, I'm Virendra Maurya</h1>
         <p>MCA Student | Java Full Stack Developer</p>
 
@@ -88,10 +89,12 @@
         <div class="projects-grid">
 
             <div class="project-card">
-                <img src="images/" alt="Portfolio Website Screenshot">
+                <img src="images/homepage.png" alt="Portfolio Website Screenshot">
                 <h3>Portfolio Website</h3>
-                <P>Responsive personal portfolio built using HTML5, CSS3, & JavaScript.</P>
-                <P><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</P>
+                <p>Designed and developed a responsive personal portfolio to showcase projects, technical skills,
+                    and resume details. Implemented responsive layout using CSS Grid and Flexbox, interactive navigation,
+                    hover animations, and client-side form validation for improved user experience.</p>
+                <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
             </div>
 
             <div class="project-card">
@@ -186,11 +189,15 @@
         <h2>Contact Me</h2>
 
         <form id="contact-form">
-            <label for="name">Name<span class="star">*</span>:</label>
-            <input type="text" id="name" placeholder="Enter your full name" required>
+            <label for="fullname">Full Name<span class="star">*</span>:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
 
             <label for="email">Email<span class="star">*</span>:</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="email" id="email" name="email" placeholder="Enter your email" title="Please enter correct email format" required>
+
+            <label for="phone">Phone No.<span class="star">*</span>:</label>
+            <input type="phone" id="phone" name="phone" placeholder="Enter your phone number" pattern="^\+?[0-9\s]{10,14}$"
+            title="Enter minmum 10 or maximum 14 digit phone number" required>
 
             <label for="msg">Message<span class="star">*</span>:</label>
             <textarea id="msg" rows="6" placeholder="Write your message..." required></textarea>
