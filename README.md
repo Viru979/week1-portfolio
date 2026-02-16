@@ -72,6 +72,7 @@ code .
 2. Or use Live Server in VS Code
 
 
+
 ## 🧠 Technical Details
 
 ### Architecture
@@ -88,7 +89,7 @@ code .
 - alt attributes for images
 - Proper label usage in forms
 
-
+---
 ## 🧪 Testing
 - ✔ Tested on Google Chrome
 - ✔ Tested on Microsoft Edge
@@ -100,8 +101,11 @@ code .
 ## 📸 Visual Documentation
 
 ![Homepage](images/homepage.png)
+
 ![Mobile View](images/mobile.png)
+
 ![Projects View](images/projects.png)
+
 ![Contact Form Validation](images/contactform.png)
 
 
