@@ -108,6 +108,7 @@ code .
 
 ![Contact Form Validation](images/contactform.png)
 
+---
 
 ## 🚀 Future Improvements
 - Dark / Light mode toggle
