@@ -125,7 +125,15 @@ code .
 - Commit regularly using Git
 
 
+## 🌐 Live Demo
+- Portfolio Website: https://viru979.github.io/week1-portfolio/
+
+---
+
 ## 👨‍💻 Author
 **Virendra Maurya**
 - MCA Student | Java Full Stack Developer
+
+
 - GitHub: https://github.com/Viru979
+- LinkedIn: (https://www.linkedin.com/in/virendra-maurya-5abb0a342)
