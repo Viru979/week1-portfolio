@@ -114,7 +114,6 @@ code .
 - Dark / Light mode toggle
 - Add smooth scroll animation
 - Add project filtering system
-- Deploy using GitHub Pages
 
 
 # 🎓 Beginner Tips
