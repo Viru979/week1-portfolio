@@ -23,14 +23,14 @@ The website showcases skills, projects, and contact information using modern web
 
 
 ## ✨ Features
-✔ Fully Responsive Design (Mobile, Tablet, Desktop)
-✔ Mobile Hamburger Navigation
-✔ CSS Grid Projects Layout
-✔ Flexbox-based alignment
-✔ Semantic HTML5 Elements
-✔ Accessible Markup (alt attributes, labels)
-✔ Contact Form with Basic Validation
-✔ Smooth Hover Effects & Transitions
+- ✔ Fully Responsive Design (Mobile, Tablet, Desktop)
+- ✔ Mobile Hamburger Navigation
+- ✔ CSS Grid Projects Layout
+- ✔ Flexbox-based alignment
+- ✔ Semantic HTML5 Elements
+- ✔ Accessible Markup (alt attributes, labels)
+- ✔ Contact Form with Basic Validation
+- ✔ Smooth Hover Effects & Transitions
 
 
 ## 📱 Responsive Design
@@ -42,20 +42,21 @@ The website showcases skills, projects, and contact information using modern web
 
 ## 📂 Folder Structure
 
-week1-portfolio/
-│── index.html
-│── css/
-│   ├── style.css
-│   ├── responsive.css
-│   └── variables.css
-│── js/
-│   └── navigation.js
-│── images/
-│   ├── profile.jpg
-│   └── project1.jpg
-│── README.md
-└── .gitignore
+- week1-portfolio/
+- │── index.html
+- │── css/
+- │   ├── style.css
+- │   ├── responsive.css
+- │   └── variables.css
+- │── js/
+- │   └── navigation.js
+- │── images/
+- │   ├── profile.jpg
+- │   └── project1.jpg
+- │── README.md
+- └── .gitignore
 
+---
 
 ## ⚙️ Setup & Run
 
@@ -89,11 +90,11 @@ code .
 
 
 ## 🧪 Testing
-✔ Tested on Google Chrome
-✔ Tested on Microsoft Edge
-✔ Navigation works on mobile, tablet & desktop
-✔ All required fields in contact form validated
-✔ Responsive layout verified using DevTools
+- ✔ Tested on Google Chrome
+- ✔ Tested on Microsoft Edge
+- ✔ Navigation works on mobile, tablet & desktop
+- ✔ All required fields in contact form validated
+- ✔ Responsive layout verified using DevTools
 
 
 ## 📸 Visual Documentation
@@ -121,5 +122,5 @@ code .
 
 ## 👨‍💻 Author
 **Virendra Maurya**
-MCA Student | Java Full Stack Developer
-GitHub: https://github.com/Viru979
+- MCA Student | Java Full Stack Developer
+- GitHub: https://github.com/Viru979
